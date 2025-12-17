@@ -4,7 +4,11 @@
     <h1>{{ msg }}</h1>
     <p>Это пример компонента Vue 3.</p>
   </div>
+  <div class="bg-green-500 text-white p-4">
+    PostCSS + Tailwind работают!
+  </div>
 </template>
+
 
 <script setup lang="ts">
 // Получаем пропс msg из родителя
